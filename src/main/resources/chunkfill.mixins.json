@@ -1,0 +1,13 @@
+{
+    "required":true,
+    "minVersion":"0.8",
+    "package":"com.prgmTrouble.chunkfill",
+    "compatibilityLevel":"JAVA_16",
+    "mixins":
+    [
+        "mixin.CommandManagerMixin",
+        "mixin.WorldChunkAccessor"
+    ],
+    "client":[],
+    "injectors":{"defaultRequire":1}
+}
